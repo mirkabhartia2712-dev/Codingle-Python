@@ -17,7 +17,7 @@ print (f"Type{Fore.YELLOW}'reset'{Fore.CYAN}, {Fore.YELLOW} 'history' {Fore.CYAN
 
 while True:
 
-    user_input=(f"{Fore.GREEN}>> {Style.RESET_ALL}").strip()
+    user_input=input(f"{Fore.GREEN}>> {Style.RESET_ALL}").strip()
 
     if not user_input:
         print(f"{Fore.RED}Please enter some text or a valid command.{Style.RESET_ALL}")
@@ -39,7 +39,7 @@ while True:
 
         if not conversation_history:
 
-            print (f"{Fore.YELLOW} No conversation history yet. {Style.RESTE_ALL}")
+            print (f"{Fore.YELLOW} No conversation history yet. {Style.RESET_ALL}")
     
     else:
         
