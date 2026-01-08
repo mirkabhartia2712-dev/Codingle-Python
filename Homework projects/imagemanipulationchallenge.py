@@ -30,11 +30,11 @@ cv2.destroyAllWindows()
 print(f"Processed Image Dimensions: {resized_image.shape}")
 
 cv2.getRotationMatrix2D()
-cv2,warpAffine()
+cv2.warpAffine()
 
 np.ones()
 cv2.add()
 
 
 output_images
-cv2,imwrite()
+cv2.imwrite()
