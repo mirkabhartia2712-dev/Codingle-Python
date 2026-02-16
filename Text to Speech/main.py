@@ -4,7 +4,7 @@ import speech_recognition as sr
 
 import pyttsx3
 
-from googletrans import Traslator
+from googletrans import Translator
 
 
 
@@ -162,4 +162,18 @@ def main():
 
 
 
-        translated_text = translate_text(orginal_text, target_language=target_language)
+        translated_text = translate_text(original_text, target_language=target_language)
+
+
+
+
+
+        speak(translated_text, language="en")
+
+        print("🤠🪅✔️ Transcription spoken out!")
+
+
+
+if __name__ == "__main__":
+
+    main()
